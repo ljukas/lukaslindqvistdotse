@@ -1,4 +1,4 @@
-body {
+html, body {
     margin: 0;
 }
 
@@ -17,4 +17,33 @@ body {
     height: 100%;
     opacity: .6;
     background: #000;
+}
+
+.profile > .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+    position: absolute
+}
+
+.content > .centered {
+    max-width: 50%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.centered > * {
+    margin-top: 20px;
+}
+
+.centered > .name {
+    text-align: center;
+    font-size: 120%;
+}
+
+.centered > .description {
+    text-align: center;
 }
