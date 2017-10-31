@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.profile > .background {
+    background: url(https://s3-eu-west-1.amazonaws.com/lukaslindqvistdotse/public/background.png) no-repeat center bottom;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.background > .overlay {
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    background: #000;
+}
