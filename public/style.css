@@ -79,7 +79,7 @@ html, body {
     justify-content: center;
 }
 
-.social-media > .sm-icon {
+.social-media > .fa {
     margin: auto 20px;
     font-size: 25px;
     width: 40px;
