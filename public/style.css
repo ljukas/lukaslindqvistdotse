@@ -73,7 +73,7 @@ html, body {
     text-align: center;
 }
 
-.centered >.social-media {
+.centered > .social-media {
     margin: auto;
     display: flex;
     justify-content: center;
@@ -89,6 +89,6 @@ html, body {
 }
 
 /* Add a hover effect if you want */
-.social-media > .sm-icon:hover {
+.social-media > .fa:hover {
     opacity: 0.7;
 }
