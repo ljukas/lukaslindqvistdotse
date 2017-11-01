@@ -1,0 +1,36 @@
+[debug] [2017-11-01T09:12:18.987Z] ----------------------------------------------------------------------
+[debug] [2017-11-01T09:12:18.990Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2017-11-01T09:12:18.990Z] CLI Version:   3.13.1
+[debug] [2017-11-01T09:12:18.990Z] Platform:      linux
+[debug] [2017-11-01T09:12:18.990Z] Node Version:  v8.8.1
+[debug] [2017-11-01T09:12:18.990Z] Time:          Wed Nov 01 2017 10:12:18 GMT+0100 (CET)
+[debug] [2017-11-01T09:12:18.990Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-01T09:12:19.010Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-01T09:12:19.010Z] > authorizing via signed-in user
+[debug] [2017-11-01T09:12:19.012Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-01T09:12:19.012Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/VNmKrNqGRtPUxn1QW2T9ElXjj7Vukg632juYCIZZiMyObrfZeGfq4L-Dd4ZtqWPU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Nov 01 2017 10:12:19 GMT+0100 (CET)
+[debug] [2017-11-01T09:12:19.167Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-01T09:12:19.192Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/homepage-ljukas  
+ Wed Nov 01 2017 10:12:19 GMT+0100 (CET)
+[debug] [2017-11-01T09:12:19.928Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-01T09:12:19.930Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/homepage-ljukas/tokens  
+ Wed Nov 01 2017 10:12:19 GMT+0100 (CET)
+[debug] [2017-11-01T09:12:20.923Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/lukas/Documents/projects/homepage-lukas'...
+[info] 
+[debug] [2017-11-01T09:12:20.928Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/homepage-ljukas  
+ Wed Nov 01 2017 10:12:20 GMT+0100 (CET)
+[debug] [2017-11-01T09:12:21.861Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-01T09:12:21.862Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/938098120846/clients/_:getWebAppConfig  
+ Wed Nov 01 2017 10:12:21 GMT+0100 (CET)
+[debug] [2017-11-01T09:12:22.490Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+

@@ -12,6 +12,19 @@ html, body {
     position: fixed;
 }
 
+.content > .source {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 12px;
+}
+
+.source > a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
 .background > .overlay {
     width: 100%;
     height: 100%;
